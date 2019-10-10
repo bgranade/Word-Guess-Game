@@ -30,7 +30,7 @@ function buildArray(word){
 function newGame(){
     newMessage.textContent = ""
     newArray=[];
-    vocab=Animals[(Math.floor((Math.random()) * Animals.length))]; 
+    vocab=Players[(Math.floor((Math.random()) * Players.length))]; 
     console.log(vocab); 
     buildArray(vocab);
     wrongGuesses =[];
@@ -44,3 +44,7 @@ function newGame(){
     Word.textContent=displayArray.join(" ");
 }
 
+let allLetters=[];
+for(i=97;i<=122;i++){
+    allLetters.push(String.fromCharCode(i));
+}
