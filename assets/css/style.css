@@ -4,11 +4,13 @@
 
 .body{
     font-family: 'Handlee', cursive;
+    color: white;
 }
 .main{
-    background-image: url("../images/congruent_pentagon.png");
+    background-image: url("https://www.nba.com/resources/static/team/v2/heat/custom-projects/2018-19_Uniforms/imgs/vice-nights-court-1.jpg");
 }
 
 #picture{
     max-width:300px;
+}
 }

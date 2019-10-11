@@ -3,7 +3,7 @@ let wrongGuesses = [];
 let newArray=[];
 let totalChances = 0;
 let vocab= "";
-let Players=["Kobe", "Jordan", "Harden", "Duncan", "Curry", "Durant","Murray", "Joker","Derozan",]
+let Players=["Kobe", "Jordan", "Harden", "Duncan", "Curry", "Durant","Murray", "Joker","Derozan","Lillard","Davis","Green","Leonard","James","Antetokounmpo","Bird","Thompson"]
 
 let Word = document.getElementById("word");
 let totalWins = document.getElementById("wins");
